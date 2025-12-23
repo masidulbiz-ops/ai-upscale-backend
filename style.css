@@ -1,0 +1,48 @@
+body {
+  background: #0f0f0f;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.panel {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin: 15px 0;
+}
+
+input, select, button {
+  width: 100%;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  background: #00c896;
+  border: none;
+  border-radius: 5px;
+}
+
+#downloads a {
+  display: block;
+  color: #00ffcc;
+  margin: 5px 0;
+  text-decoration: none;
+}
+
+#status {
+  text-align: center;
+  margin-top: 15px;
+}
