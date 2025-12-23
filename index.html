@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Batch Image Upscaler (Stock Safe)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Batch Image Upscaler (Adobe Stock Safe)</h1>
+
+<div class="panel">
+  <input type="file" id="folderInput" webkitdirectory multiple accept="image/*">
+
+  <label>
+    Upscale Factor
+    <select id="scale">
+      <option value="2">2×</option>
+      <option value="4" selected>4×</option>
+    </select>
+  </label>
+
+  <label>
+    Sharpness
+    <input type="range" id="sharpness" min="0" max="2" step="0.05" value="0.4">
+  </label>
+
+  <label>
+    Noise Reduction
+    <input type="range" id="noise" min="0" max="2" step="0.05" value="0.2">
+  </label>
+
+  <button id="start">Process Images</button>
+</div>
+
+<div id="status"></div>
+<div id="downloads"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
